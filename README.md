@@ -2,10 +2,25 @@
 
 本仓库维护 Open Agent Systems 的公开组织介绍与品牌图片。
 
-- [组织主页正文](profile/README.md)：由 GitHub 展示在组织首页。
+## 文件入口
+
+- [英文主页](profile/README.md)：默认正文，展示在 GitHub 组织首页。
+- [简体中文](profile/README.zh-CN.md)：独立的中文介绍。
 - [横版标识](assets/banner.jpg)：用于组织介绍。
-- [方形头像](assets/avatar.jpg)：OAS 简称版本，可用于组织头像。
+- [方形头像](assets/avatar.jpg)：OAS 简称版本，用于组织头像。
 
-更新项目状态时同步中英文说明；仅为实际公开的项目添加源码链接。本仓库不包含私有设计资料、运行配置或业务数据。
+## 多语言维护
 
-This repository contains the public organization profile and brand assets for Open Agent Systems.
+每种语言独立维护一个文件，避免逐段混排。英文 `profile/README.md` 作为基准版本；其他语言按 `profile/README.<语言标签>.md` 命名，例如日文 `README.ja.md`、繁体中文 `README.zh-TW.md`。这些只是命名示例，尚未提供相应翻译。
+
+新增语言时：
+
+1. 从英文基准复制正文，翻译为目标语言，保留事实、项目状态和有效链接。
+2. 在所有已提供语言的文件顶部加入新语言链接，使用该语言的名称。
+3. 语言导航使用完整 GitHub 文件链接，确保在组织主页和仓库文件页都能访问。
+4. 更新项目状态时同步已有翻译；无法及时同步时，在对应译文注明差异并链接基准版本。
+5. 检查图片、语言导航及项目链接后提交。
+
+GitHub 组织首页使用 `profile/README.md`；其他语言通过顶部链接访问，不依赖自动语言切换。只为已存在的译文添加入口，不建立空白语言文件。
+
+仅为实际公开的项目添加源码链接。本仓库不包含私有设计资料、运行配置或业务数据。
