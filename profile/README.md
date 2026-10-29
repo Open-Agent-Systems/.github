@@ -20,6 +20,8 @@ We want these foundations to work together through clear interfaces, reducing re
 
 Application needs guide the work. Agent execution connects capabilities. Knowledge and assets enable reuse, while governance and evaluation span the full lifecycle.
 
+[![Target ecosystem architecture: capability layers and cross-cutting governance](https://raw.githubusercontent.com/Open-Agent-Systems/.github/main/assets/diagrams/ecosystem.en.svg)](https://raw.githubusercontent.com/Open-Agent-Systems/.github/main/assets/diagrams/ecosystem.en.svg)
+
 | Capability domain | Focus |
 | --- | --- |
 | Models and gateways | Model proxies, access and routing, fallback, quotas and usage metering. |
@@ -34,6 +36,12 @@ Application needs guide the work. Agent execution connects capabilities. Knowled
 Open interfaces, capability descriptions and compatibility checks provide common ground across these domains. Our long-term direction is to support composition across local, private-cloud, public-cloud and edge environments.
 
 These are intended areas of ecosystem development, not a claim that every capability has shipped or a feature list for one product. Published project documentation will define implementation details, supported scope and validation results.
+
+## From intent to verified delivery
+
+Tasks move through definition, planning, execution, validation and delivery. Approvals and checkpoints control execution; failed validation leads to replanning. Selected, validated outcomes become reusable assets for future work.
+
+[![Target task lifecycle: execution, validation, recovery and reuse](https://raw.githubusercontent.com/Open-Agent-Systems/.github/main/assets/diagrams/task-cycle.en.svg)](https://raw.githubusercontent.com/Open-Agent-Systems/.github/main/assets/diagrams/task-cycle.en.svg)
 
 ## How we approach the work
 

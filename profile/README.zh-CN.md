@@ -20,6 +20,8 @@
 
 以应用需求为起点，以智能体执行为核心，知识与资产支撑复用，安全治理与评测贯穿全过程。
 
+[![目标生态架构：能力分层与贯穿式治理](https://raw.githubusercontent.com/Open-Agent-Systems/.github/main/assets/diagrams/ecosystem.zh-CN.svg)](https://raw.githubusercontent.com/Open-Agent-Systems/.github/main/assets/diagrams/ecosystem.zh-CN.svg)
+
 | 能力领域 | 建设重点 |
 | --- | --- |
 | 模型服务与网关 | 模型代理、接入与路由、降级、配额与用量计量。 |
@@ -34,6 +36,12 @@
 开放接口、能力描述和兼容性验证是这些领域协作的共同基础。长期而言，我们希望能力能够在本地、私有云、公有云和边缘环境中组合使用。
 
 以上是生态建设方向，不代表所有能力已经交付，也不是单个产品的功能清单。具体实现、支持范围与验证结果以正式公开项目的文档为准。
+
+## 从目标到可验证的交付
+
+任务沿目标、规划、执行、验证和交付推进。审批与检查点约束执行；验证未通过时调整计划；经筛选、验证的产出沉淀为后续任务可复用的资产。
+
+[![目标任务闭环：执行、验证、恢复与资产复用](https://raw.githubusercontent.com/Open-Agent-Systems/.github/main/assets/diagrams/task-cycle.zh-CN.svg)](https://raw.githubusercontent.com/Open-Agent-Systems/.github/main/assets/diagrams/task-cycle.zh-CN.svg)
 
 ## 怎样推进
 
