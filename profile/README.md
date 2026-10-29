@@ -2,40 +2,56 @@
   <img src="https://raw.githubusercontent.com/Open-Agent-Systems/.github/main/assets/banner.jpg" alt="Open Agent Systems" width="900" />
 </p>
 
-[English](https://github.com/Open-Agent-Systems/.github/blob/main/profile/README.md) · [简体中文](https://github.com/Open-Agent-Systems/.github/blob/main/profile/README.zh-CN.md)
+**English** · [简体中文](https://github.com/Open-Agent-Systems/.github/blob/main/profile/README.zh-CN.md)
 
-**Open foundations. Connected capabilities.**
+# Open foundations for AI-native systems
 
-## About us
+**Open Agent Systems (OAS)** is an open-source organization focused on AI-native systems and cloud-native infrastructure. We aim to connect models, agents, tools, knowledge and execution environments so developers can compose independent capabilities into systems they can run, manage and improve.
 
-**Open Agent Systems (OAS)** is an open-source organization building foundations for the AI-native ecosystem. Through open collaboration, we aim to make models, agents, tools, and runtimes work together, providing composable capabilities that help developers build, deliver, and operate AI systems.
+[Visit our website](https://open-agent-systems.github.io/) · [Explore the capability map](https://open-agent-systems.github.io/#architecture) · [Join the discussion](https://github.com/Open-Agent-Systems/.github/issues)
 
-We start with real engineering needs and steadily improve tools and infrastructure across development and operations, so developers can spend more time creating value.
+## Why this work matters
 
-## Our focus
+Moving from a model call to real work takes more than model capability. Tasks need orchestration and recovery. Execution needs isolation and permissions. Knowledge needs provenance and updates. Results need verification, and useful capabilities need a way to be reused.
 
-| Area | What we aim to enable |
+We want these foundations to work together through clear interfaces, reducing repeated integration across software delivery, intelligent operations and business automation. Teams should retain their choice of models, tools and deployment environments.
+
+## What we aim to build
+
+Application needs guide the work. Agent execution connects capabilities. Knowledge and assets enable reuse, while governance and evaluation span the full lifecycle.
+
+| Capability domain | Focus |
 | --- | --- |
-| AI-assisted engineering | Bring AI into coding, testing, delivery, and project collaboration to improve the developer experience. |
-| Agents and applications | Support agent development, reusable skills, tool integration, and workflow orchestration. |
-| Cloud-native foundations | Improve execution environments, deployment, resource management, and observability. |
-| Interoperability | Connect independent tools and projects to reduce duplicated effort and integration costs. |
+| Models and gateways | Model proxies, access and routing, fallback, quotas and usage metering. |
+| Agent development and collaboration | Task orchestration, tool use, multi-agent collaboration and human oversight. |
+| Runtimes and sandboxes | Isolated execution, scheduling, recovery, resources and environment lifecycles. |
+| Context, state and knowledge | Context engineering, checkpoints, memory, knowledge provenance and access boundaries. |
+| AI assets and supply chain | Discovery, versioning, distribution, provenance and dependencies for prompts, skills, tools and templates. |
+| Security and governance | Identity, authorization, policy, approvals, budgets and audit. |
+| Evaluation and improvement | Execution traces, replay, quality and cost assessment, and result verification. |
+| Developer experience and applications | SDKs, CLIs, debugging, delivery and practical applications. |
 
-These are our long-term areas of focus. Refer to individual projects for available features and validation status.
+Open interfaces, capability descriptions and compatibility checks provide common ground across these domains. Our long-term direction is to support composition across local, private-cloud, public-cloud and edge environments.
 
-## First project
+These are intended areas of ecosystem development, not a claim that every capability has shipped or a feature list for one product. Published project documentation will define implementation details, supported scope and validation results.
 
-**Open Managed Agents (OMA)** is a self-hosted workspace for Claude Code projects, agents, skills, conversations, and task workflows, with local and Docker-based execution.
+## How we approach the work
 
-Status: Preparing the first open-source release. The public source repository is not yet available.
+Start with components that are useful on their own, validate them in practice, and connect them through interfaces as the work develops. We value:
 
-## Our principles
+- **Clear boundaries**: Projects should work independently and cooperate with other tools.
+- **Verifiable results**: Distinguish what is implemented, what is validated and what remains exploratory.
+- **Sustainable maintenance**: Documentation, examples, compatibility and maintenance costs are part of delivery.
+- **Open collaboration**: Let use cases and community feedback shape priorities, without expecting one project to implement everything.
 
-- **Build in the open**: Share our work and welcome developers from different backgrounds.
-- **Design for composition**: Keep clear boundaries so independent capabilities can work together.
-- **Put developers first**: Value usability, documentation, and the practical developer experience.
-- **Stay grounded in practice**: Address real needs with verifiable, maintainable implementations.
+## Current stage and participation
 
-## Get involved
+The organization is in its early stages. Our website presents the vision, capability map and intended direction. Projects will be published individually when ready, with links added here.
 
-Share ecosystem ideas, use cases, and organization-level feedback through [our Issues](https://github.com/Open-Agent-Systems/.github/issues). Once projects are published, please use their respective repositories for feature requests, bug reports, and code contributions.
+Developers, maintainers and teams are welcome to use [community Issues](https://github.com/Open-Agent-Systems/.github/issues) to discuss:
+
+- What work should AI help complete, and where do existing approaches fall short?
+- Which foundations should be shared, and which interfaces need to interoperate?
+- Where could you contribute practical validation, documentation, translations or project collaboration?
+
+When sharing a use case, include the environment, constraints and expected outcome where possible. Once projects are published, please use their repositories for feature requests, issue reports and code contributions.
