@@ -2,23 +2,23 @@
 
 本仓库维护 Open Agent Systems 的公开组织介绍与品牌图片。
 
-[中文官网](https://open-agent-systems.github.io/) · [English website](https://open-agent-systems.github.io/en/)
+[组织官网](https://open-agent-systems.github.io/) · [中文官网](https://open-agent-systems.github.io/zh/)
 
 ## 文件入口
 
-- [中文主页](profile/README.md)：默认正文，展示在 GitHub 组织首页。
-- [English](profile/README.en.md)：独立的英文介绍。
-- [旧中文入口](profile/README.zh-CN.md)：保留历史链接，指向默认中文主页。
+- [英文主页](profile/README.md)：默认正文，展示在 GitHub 组织首页。
+- [简体中文](profile/README.zh-CN.md)：独立的中文介绍。
+- [旧英文入口](profile/README.en.md)：保留已有链接，指向默认英文主页。
 - [横版标识](assets/banner.jpg)：用于组织介绍。
 - [方形头像](assets/avatar.jpg)：OAS 简称版本，用于组织头像。
 
 ## 多语言维护
 
-每种语言独立维护一个文件，避免逐段混排。中文 `profile/README.md` 作为基准版本，英文维护在 `profile/README.en.md`；其他语言按 `profile/README.<语言标签>.md` 命名，例如日文 `README.ja.md`、繁体中文 `README.zh-TW.md`。这些只是命名示例，尚未提供相应翻译。
+每种语言独立维护一个文件，避免逐段混排。英文 `profile/README.md` 作为基准版本；其他语言按 `profile/README.<语言标签>.md` 命名，例如日文 `README.ja.md`、繁体中文 `README.zh-TW.md`。这些只是命名示例，尚未提供相应翻译。
 
 新增语言时：
 
-1. 从中文基准复制正文，翻译为目标语言，保留事实、项目状态和有效链接。
+1. 从英文基准复制正文，翻译为目标语言，保留事实、项目状态和有效链接。
 2. 在所有已提供语言的文件顶部加入新语言链接，使用该语言的名称。
 3. 语言导航使用完整 GitHub 文件链接，确保在组织主页和仓库文件页都能访问。
 4. 更新项目状态时同步已有翻译；无法及时同步时，在对应译文注明差异并链接基准版本。
